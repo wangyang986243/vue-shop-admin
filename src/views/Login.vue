@@ -10,10 +10,10 @@
         label-position="top"
       >
         <el-form-item label="用户名" prop="username">
-          <el-input v-model="ruleForm.name"></el-input>
+          <el-input v-model="ruleForm.username"></el-input>
         </el-form-item>
         <el-form-item label="密码" prop="password">
-          <el-input v-model="ruleForm.name"></el-input>
+          <el-input v-model="ruleForm.password"></el-input>
         </el-form-item>
         <el-form-item>
           <el-button type="primary" @click="submitForm('ruleForm')">登入</el-button>
@@ -80,5 +80,6 @@ export default {
   border-radius: 10px;
   background-color: #fff;
   padding: 30px 20px;
+  min-width: 400px;
 }
 </style>
